@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title class="ion-no-padding">
+      <span class="text-medium">
+        <ion-text color="light">
+          Thank you
+        </ion-text>
+      </span>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="flex-center">
+
+    <ion-icon name="checkmark-circle" color="success"></ion-icon>
+    <div class="ion-padding">
+      <ion-text color="dark">
+        <h2 class="bold">
+          Order Successfully Placed
+        </h2>
+        <p>
+          Your payment has been processed and your order is complete.
+        </p>
+      </ion-text>
+    </div>
+
+    <div style="width: 300px; margin: 0 auto">
+      <div class="ion-margin-vertical">
+        <ion-button size="large" shape="round" color="primary" expand="block" [routerLink]="['/']">
+          Go home
+        </ion-button>
+      </div>
+    </div>
+
+  </div>
+
+</ion-content>

@@ -24,3 +24,108 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+.flex {
+  display: flex;
+}
+
+.full-width {
+  width: 100% !important;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.align-self-end {
+  align-self: flex-end;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-space-around {
+  justify-content: space-around;
+}
+
+.justify-content-space-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.justify-content-space-end {
+  justify-content: flex-end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.text-tiny {
+  font-size: 11px !important;
+}
+
+.text-small {
+  font-size: 12px !important;
+}
+
+.text-medium {
+  font-size: 14px !important;
+}
+
+.text-normal {
+  font-size: 16px !important;
+}
+
+.text-large {
+  font-size: 24px !important;
+}
+
+.text-xlarge {
+  font-size: 36px !important;
+}
+
+.text-xxlarge {
+  font-size: 48px !important;
+}
+
+.radius {
+  border-radius: 8px !important;
+}
+
+.divider {
+  background: var(--ion-color-light);
+  margin: 8px 0;
+  height: 1px;
+  width: 100%;
+}
+
+.bold {
+  font-weight: bold;
+}
