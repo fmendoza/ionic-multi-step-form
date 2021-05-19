@@ -1,5 +1,7 @@
 # Ionic 5 Multi-Step Form
 
+<img alt="Ionic 5 Multi-step form" src="https://user-images.githubusercontent.com/1320696/118833306-f6c27680-b886-11eb-9d10-3140fb19024a.png" width="600">
+
 Powered by IonSlides and Angular validations.
 
 ## Getting Started
